@@ -1,4 +1,4 @@
-/*
+
 (function(){
     const listElements = document.querySelectorAll('.menu__item--show');
     const list = document.querySelector('.menu__links');
@@ -50,7 +50,7 @@
     if(window.innerWidth <= 800){
         addClick();
     }
-
+/*
     menu.addEventListener('click', ()=> list.classList.toggle('menu__links--show'));
 
 
