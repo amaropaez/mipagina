@@ -28,72 +28,9 @@ a:hover {
 
 a:link,
 a:visited {
-  color: #b8afe9;
+  color: white;
 }
 
-/* Navbar */
-/*
-nav {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.navbar-toggler-icon {
-  background: url(../media/menu.png) center center no-repeat;
-}
-
-.webdesign {
-  background: #131414 !important;
-  color: #ffffff;
-  border-bottom: 1px solid #242424;
-}
-
-.dropdown-menu {
-  background-color: #333;
-  border: 0px;
-}
-
-.dropdown-item:link,
-.dropdown-item:visited {
-  background: none;
-}
-
-.dropdown-item:hover {
-  background: #131414;
-}
-
-.dropdown-submenu {
-  position: relative;
-}
-
-.dropdown-submenu a::after {
-  transform: rotate(-90deg);
-  position: absolute;
-  right: 6px;
-  top: .8em;
-}
-
-.dropdown-submenu .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-left: .1rem;
-  margin-right: .1rem;
-}
-
-.disenadores a:link,
-.disenadores a:visited {
-  color: #d8c4c4;
-}
-
-.disenadores a:hover {
-  color: #1d1f12;
-}
-**********************/
 
 .whatsapp {
   border-radius: 3px;
@@ -132,6 +69,8 @@ nav {
 #encabezado .row {
   height: 100%;
 }
+
+
 
 .encaizq {
   text-align: left;

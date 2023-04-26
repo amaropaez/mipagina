@@ -21,33 +21,44 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="nav">
-            <h1  class="logo nav-link">Your Page</h1>
-            <button class="nav-toggle" aria-label="Abrir menú">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul class="nav-menu">
-                <li class="nav-menu-item">
-                    <a href="index.html" class="nav-menu-link nav-link">Quienes Somos</a>
-                </li>
-
-                <li class="nav-menu-item">
-                    <a href="precios.html" class="nav-menu-link nav-link">Precios</a>
-                </li>
-
-                <li class="nav-menu-item">
-                    <a href="capacitateconnosotros.html" class="menu__link">Capacitate con Nosotros</a>
-                </li>
-            </ul>
-
-            <div class="col-auto order-2 order-md-3 navwsp">
+    <header>
+        <div class="header_superior">
+            <div class="logo">
+                <h1>Your Page</h1>
+            </div>
+            <div class="search">
                 <a class="whatsapp" href="https://wa.me/5491149707914" target="_blank">whatsapp</a>
             </div>
-        </nav>
+
+        </div>
+
+        <div class="container__menu">
+            <div class="menu">
+
+                <input type="checkbox" id="check__menu">
+                <label id="#label__check" for="check__menu">
+                    <i class="fa-solid fa-bars icon__menu"></i>
+                </label>
+                
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html"></a>
+                        </li>
+
+                        <li>
+                            <a href="precios.html" id="selected">Precios</a>
+                        </li>
+
+                        <li>
+                            <a href="capacitateconnosotros.html">Capacitate con Nosotros</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
     </header>
-    
 
     <section id="disenoweb">
         <div class="container-seb">
